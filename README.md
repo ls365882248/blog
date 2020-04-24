@@ -10,6 +10,8 @@
 ### 学习总结
 
 * [解剖 js 事件循环](https://github.com/ls365882248/blog/issues/2)
+* [typescript 高级](https://github.com/ls365882248/blog/issues/9)
+* [core react](https://github.com/ls365882248/blog/issues/10)
 
 ### 技术探索
 
