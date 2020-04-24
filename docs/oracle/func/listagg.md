@@ -20,7 +20,7 @@ FROM TEMP
 GROUP BY NATION;
 ``` 
 ##### 结果
-![this](../../../images/oracle/func/listagg/listagg within group.png)
+![this](../../../images/oracle/func/listagg/listagg-within- group.png)
 
 #### 高级用法
 over(partition by XXX)。在不使用Group by语句时候，也可以使用LISTAGG函数。
@@ -43,4 +43,4 @@ SELECT
 FROM TEMP;
 ```
 ##### 结果
-![this](../../../images/oracle/func/listagg/listagg within group over.png)
+![this](../../../images/oracle/func/listagg/listagg-within-group-over.png)
