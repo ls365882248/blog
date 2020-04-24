@@ -4,6 +4,9 @@
 
 > 灵感来自学了就忘的脑子
 
+### 日常
+
+* [每日 ugly](/docs/ugly.md)
 ### 学习总结
 
 * [解剖 js 事件循环](https://github.com/ls365882248/blog/issues/2)
@@ -15,3 +18,4 @@
 ### 猫走狗步
 
 * [Oracle列转行函数LISTAGG](https://github.com/ls365882248/blog/issues/6)
+
