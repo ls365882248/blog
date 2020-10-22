@@ -1,3 +1,11 @@
+
+<div align="center">
+  <br/>
+  <span style="font-size: 36px"><img height="60px" src="./images/helicopter.png"/></span>
+  <br />
+  <br/>
+</div>
+
 ## 朝拾夕丢
 
 本文用于记录平时工作学习中的总结记录。
