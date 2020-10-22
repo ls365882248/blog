@@ -3,12 +3,6 @@
   <br/>
   <span style="font-size: 36px"><img height="60px" src="./images/helicopter.png"/></span>
   <br />
-  <br />
-  <br />
-  <br />
-  <span style="font-size: 18px">
-    朝拾夕丢
-  <span>
   <br/>
 </div>
 
