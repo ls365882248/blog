@@ -44,3 +44,35 @@
   #! /usr/bin/env ts-node
   ...
   ```
+#### angular change detection
+  **ChangeDetectionStrategy.OnPush** 停止变更检测
+  **detach** 停止变更检测
+  **reattach** 重启变更检测（仅适用于被禁用分支的顶层组件中，如果父组件禁用变更检测，将不会生效
+
+
+  > this.cd.detach(); ChangeDetectionStrategy.OnPush 功能相似
+  对组件内部数据变更忽略，父组件参数变更依旧会检测
+
+#### angular FormControl setErrors 无效  
+  > 因为 abstrctControl.updateValueAndValidity() 重置了 error 信息
+
+#### 在 select 选择 observable 作为参数时， formControl 无法控制异常状态
+  > formGroup使用错误
+
+#### formControl markAsDirty 需要点击两次才会生效
+  > 需要在 setError 之前 markAsDirty
+
+#### less 中使用 fade 报错
+
+```less
+@white: rgb(0, 0, 0); // eorr
+color: fade(@white, 60);
+```
+
+#### 修改 zorro botton hover
+
+  > 需要覆写 antd base.less 下的 a:hover 样式
+
+#### 在 webpack modules rules 使用 exclude 不起作用 
+  > 在 tsconfig.json 中设置 exclude
+  [参考](https://jkchao.github.io/typescript-book-chinese/faqs/tsconfig-behavior.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%8A%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E6%94%BE%E5%85%A5%E3%80%8Cexclude%E3%80%8D%E9%80%89%E9%A1%B9%E4%B8%AD%EF%BC%8C%E5%AE%83%E4%BB%8D%E7%84%B6%E4%BC%9A%E8%A2%AB%E7%BC%96%E8%AF%91%E5%99%A8%E9%80%89%E4%B8%AD%EF%BC%9F)
