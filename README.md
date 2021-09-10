@@ -1,4 +1,3 @@
-
 <div align="center">
   <br/>
   <span style="font-size: 36px"><img height="60px" src="./images/helicopter.png"/></span>
