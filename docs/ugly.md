@@ -181,3 +181,7 @@ type Value3 = Filter<"x" | "y" | "z", "x">; // 'y' | 'z'
 > 因为类型的不确定性，做了 **推迟解析条件类型的处理**， 所以返回了一个联合类型（条件不确定时返回所有值）
 
 #### infer
+
+#### git not support password instead token
+
+> https://shliang.blog.csdn.net/article/details/119698015?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link
